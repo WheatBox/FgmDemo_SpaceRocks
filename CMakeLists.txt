@@ -57,6 +57,24 @@ endmacro(build)
 #     *.cpp_files
 # )
 
+set (OutDir ../Out/Space)
 
+build (Game.dll ${OutDir}
+	Code/Game.cpp
+
+	FxxkGML/wini/wini.cpp
+)
+
+build (Player.dll ${OutDir}/Player
+	Code/Player/Player.cpp
+)
+
+build (Bullet.dll ${OutDir}/Player
+	Code/Player/Bullet.cpp
+)
+
+build (Rock.dll ${OutDir}/Enemies
+	Code/Enemies/Rock.cpp
+)
 
 # ----------------------------------------------

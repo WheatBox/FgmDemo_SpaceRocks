@@ -1,0 +1,1 @@
+FxxkGML_Init("Game.dll");
