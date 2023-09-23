@@ -1,4 +1,4 @@
-# 2dSpaceShootingGame
+# FgmDemo_SpaceRocks
 
 一款简单的 2D 太空射击游戏，用以展示 FxxkGML 的使用
 
